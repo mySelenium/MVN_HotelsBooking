@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PHP-Travels test" duration-ms="77211" started-at="2016-09-05T18:27:45Z" finished-at="2016-09-05T18:29:02Z">
+    <groups>
+    </groups>
+    <test name="Hotel Test" duration-ms="77211" started-at="2016-09-05T18:27:45Z" finished-at="2016-09-05T18:29:02Z">
+      <class name="com.phptravels.HotelBookingTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb]" name="beforeClass" is-config="true" duration-ms="42604" started-at="2016-09-05T19:27:45Z" finished-at="2016-09-05T19:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testWithMultipleData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb]" name="testWithMultipleData" duration-ms="15218" started-at="2016-09-05T19:28:27Z" data-provider="fieldsInput" finished-at="2016-09-05T19:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithMultipleData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb]" name="afterMethod" is-config="true" duration-ms="968" started-at="2016-09-05T19:28:43Z" finished-at="2016-09-05T19:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithMultipleData status=SUCCESS method=HotelBookingTest.testWithMultipleData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testWithMultipleData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb]" name="testWithMultipleData" duration-ms="15707" started-at="2016-09-05T19:28:44Z" data-provider="fieldsInput" finished-at="2016-09-05T19:28:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[singapore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithMultipleData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb]" name="afterMethod" is-config="true" duration-ms="900" started-at="2016-09-05T19:28:59Z" finished-at="2016-09-05T19:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithMultipleData status=SUCCESS method=HotelBookingTest.testWithMultipleData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.phptravels.HotelBookingTest@edf4efb]" name="afterClass" is-config="true" duration-ms="1796" started-at="2016-09-05T19:29:00Z" finished-at="2016-09-05T19:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.phptravels.HotelBookingTest -->
+    </test> <!-- Hotel Test -->
+  </suite> <!-- PHP-Travels test -->
+</testng-results>

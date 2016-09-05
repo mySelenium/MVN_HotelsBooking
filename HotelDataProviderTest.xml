@@ -1,0 +1,14 @@
+<suite name = "PHP-Travels test">
+	<test name = "Hotel Test">
+		
+		<classes>
+			<class  name = "com.phptravels.HotelBookingTest"/>
+				<methods>
+					<include name = "testWithMultipleData"/>
+				</methods>
+				
+		
+		</classes>
+	</test>
+
+</suite>

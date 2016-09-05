@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHP-Travels test]">
+  <parameter name="checkIn" value="22/06/2016"/>
+  <parameter name="city" value="Lond"/>
+  <parameter name="checkOut" value="29/06/2016"/>
+  <test name="Hotel Test">
+    <parameter name="checkIn" value="22/06/2016"/>
+    <parameter name="city" value="Lond"/>
+    <parameter name="checkOut" value="29/06/2016"/>
+    <classes>
+      <class name="com.phptravels.hotelbooking.hotelBookingTest"/>
+    </classes>
+  </test> <!-- Hotel Test -->
+  <test name="Hotel Test(failed)">
+    <parameter name="checkIn" value="22/06/2016"/>
+    <parameter name="city" value="Lond"/>
+    <parameter name="checkOut" value="29/06/2016"/>
+    <classes>
+      <class name="com.phptravels.hotelbooking.hotelBookingTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="testWithMultipleData" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.phptravels.hotelbooking.hotelBookingTest -->
+    </classes>
+  </test> <!-- Hotel Test(failed) -->
+</suite> <!-- Failed suite [PHP-Travels test] -->

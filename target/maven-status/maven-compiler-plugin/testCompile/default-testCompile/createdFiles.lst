@@ -1,0 +1,4 @@
+pageClasses\HotelsPage.class
+utilities\Screenshots.class
+com\phptravels\HotelBookingTest.class
+utilities\DateAndTime.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.phptravels.HotelBookingTest]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.phptravels.HotelBookingTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.phptravels.HotelBookingTest">
+        <methods>
+          <include name="parametersTest"/>
+          <include name="beforeClass"/>
+          <include name="testWithMultipleData"/>
+        </methods>
+      </class> <!-- com.phptravels.HotelBookingTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.phptravels.HotelBookingTest] -->
